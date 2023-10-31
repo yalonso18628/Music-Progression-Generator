@@ -3,7 +3,7 @@ Simple chord progression randomizer.
 
 On my free time I like to write music. I made it my goal to make my own little EP within the next few months. But I realized that I overcomplicate my music. 
 
-So my goal with this program was to generator a random two chord progression from a random key. 
+So my goal with this program was to generate a random two chord progression from a random key. 
 
 When called, the program will generate a random key, two chords, and the scale for that key. 
 
