@@ -1,0 +1,214 @@
+import random
+
+Keys = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
+Random_number = random.randrange(0, 11)
+Key = Keys[Random_number]
+
+Key_modes = ['Minor', 'Major']
+Key_mode = Key_modes[random.randrange(0, 1)]
+
+if Key == 'C' and Key_mode == 'Major':
+    Chords = ['C', 'Dm', 'Em', 'F', 'G', 'Am', 'Bdim']
+    Chordsv2 = ['C', 'Dm', 'Em', 'F', 'G', 'Am', 'Bdim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'C' and Key_mode == 'Minor':
+    Chords = ['Cm', 'Ddim', 'Eb', 'Fm', 'Gm', 'Ab', 'Bb']
+    Chordsv2 = ['Cm', 'Ddim', 'Eb', 'Fm', 'Gm', 'Ab', 'Bb']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'Db' and Key_mode == 'Major':
+    Chords = ['Db', 'Ebm', 'Fm', 'Gb', 'Ab', 'Bbm', 'Cdim']
+    Chordsv2 = ['Db', 'Ebm', 'Fm', 'Gb', 'Ab', 'Bbm', 'Cdim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'Db' and Key_mode == 'Minor':
+    Chords = ['Dbm', 'Ebdim', 'Fb', 'Gbm', 'Abm', 'A', 'Cb']
+    Chordsv2 = ['Dbm', 'Ebdim', 'Fb', 'Gbm', 'Abm', 'A', 'Cb']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'D' and Key_mode == 'Major':
+    Chords = ['D', 'Em', 'F#m', 'G', 'A', 'Bm', 'C#dim']
+    Chordsv2 = ['D', 'Em', 'F#m', 'G', 'A', 'Bm', 'C#dim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'D' and Key_mode == 'Minor':
+    Chords = ['Dm', 'Edim', 'F', 'Gm', 'Am', 'Bb', 'C']
+    Chordsv2 = ['Dm', 'Edim', 'F', 'Gm', 'Am', 'Bb', 'C']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'Eb' and Key_mode == 'Major':
+    Chords = ['Eb', 'Fm', 'Gm', 'Ab', 'Bb', 'Cm', 'Ddim']
+    Chordsv2 = ['Eb', 'Fm', 'Gm', 'Ab', 'Bb', 'Cm', 'Ddim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'Eb' and Key_mode == 'Minor':
+    Chords = ['Ebm', 'Fdim', 'Gb', 'Abm', 'Bbm', 'Cb', 'Db']
+    Chordsv2 = ['Ebm', 'Fdim', 'Gb', 'Abm', 'Bbm', 'Cb', 'Db']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'E' and Key_mode == 'Major':
+    Chords = ['E', 'F#m', 'G#m', 'A', 'B', 'C#m', 'D#dim']
+    Chordsv2 = ['E', 'F#m', 'G#m', 'A', 'B', 'C#m', 'D#dim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'E' and Key_mode == 'Minor':
+    Chords = ['Em', 'F#dim', 'G', 'Am', 'Bm', 'C', 'D']
+    Chordsv2 = ['Em', 'F#dim', 'G', 'Am', 'Bm', 'C', 'D']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'F' and Key_mode == 'Major':
+    Chords = ['F', 'Gm', 'Am', 'Bb', 'C', 'Dm', 'Edim']
+    Chordsv2 = ['F', 'Gm', 'Am', 'Bb', 'C', 'Dm', 'Edim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'F' and Key_mode == 'Minor':
+    Chords = ['Fm', 'Gdim', 'Ab', 'Bbm', 'Cm', 'Db', 'Eb']
+    Chordsv2 = ['Fm', 'Gdim', 'Ab', 'Bbm', 'Cm', 'Db', 'Eb']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'Gb' and Key_mode == 'Major':
+    Chords = ['Gb', 'Abm', 'Bbm', 'Cb', 'Db', 'Ebm', 'Fdim']
+    Chordsv2 = ['Gb', 'Abm', 'Bbm', 'Cb', 'Db', 'Ebm', 'Fdim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'Gb' and Key_mode == 'Minor':
+    Chords = ['Gbm', 'Abdim', 'A', 'Cbm', 'Dbm', 'D', 'Fb']
+    Chordsv2 = ['Gbm', 'Abdim', 'A', 'Cbm', 'Dbm', 'D', 'Fb']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'G' and Key_mode == 'Major':
+    Chords = ['G', 'Am', 'Bm', 'C', 'D', 'Em', 'F#dim']
+    Chordsv2 = ['G', 'Am', 'Bm', 'C', 'D', 'Em', 'F#dim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'G' and Key_mode == 'Minor':
+    Chords = ['Gm', 'Adim', 'Bb', 'Cm', 'Dm', 'Eb', 'F']
+    Chordsv2 = ['Gm', 'Adim', 'Bb', 'Cm', 'Dm', 'Eb', 'F']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'Ab' and Key_mode == 'Major':
+    Chords = ['Ab', 'Bbm', 'Cm', 'Db', 'Eb', 'Fm', 'Gdim']
+    Chordsv2 = ['Ab', 'Bbm', 'Cm', 'Db', 'Eb', 'Fm', 'Gdim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'Ab' and Key_mode == 'Minor':
+    Chords = ['Abm', 'Bbdim', 'Cb', 'Dbm', 'Ebm', 'Fb', 'Gb']
+    Chordsv2 = ['Abm', 'Bbdim', 'Cb', 'Dbm', 'Ebm', 'Fb', 'Gb']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'A' and Key_mode == 'Major':
+    Chords = ['A', 'Bm', 'C#m', 'D', 'E', 'F#m', 'G#dim']
+    Chordsv2 = ['A', 'Bm', 'C#m', 'D', 'E', 'F#m', 'G#dim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'A' and Key_mode == 'Minor':
+    Chords = ['Am', 'Bdim', 'C', 'Dm', 'Em', 'F', 'G']
+    Chordsv2 = ['Am', 'Bdim', 'C', 'Dm', 'Em', 'F', 'G']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'Bb' and Key_mode == 'Major':
+    Chords = ['Bb', 'Cm', 'Dm', 'Eb', 'F', 'Gm', 'Adim']
+    Chordsv2 = ['Bb', 'Cm', 'Dm', 'Eb', 'F', 'Gm', 'Adim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'Bb' and Key_mode == 'Minor':
+    Chords = ['Bbm', 'Cdim', 'Db', 'Ebm', 'Fm', 'Gb', 'Ab']
+    Chordsv2 = ['Bbm', 'Cdim', 'Db', 'Ebm', 'Fm', 'Gb', 'Ab']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+elif Key == 'B' and Key_mode == 'Major':
+    Chords = ['B', 'C#m', 'D#m', 'E', 'F#', 'G#m', 'A#dim']
+    Chordsv2 = ['B', 'C#m', 'D#m', 'E', 'F#', 'G#m', 'A#dim']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+elif Key == 'B' and Key_mode == 'Minor':
+    Chords = ['Bm', 'C#dim', 'D', 'Em', 'F#m', 'G', 'A']
+    Chordsv2 = ['Bm', 'C#dim', 'D', 'Em', 'F#m', 'G', 'A']
+    Chord_One = Chords[random.randrange(0, 6)]
+    Chords.remove(Chord_One)
+    Chord_Two = Chords[random.randrange(0, 5)]
+    print('Key:', Key, Key_mode)
+    print('Chords:', Chord_One, Chord_Two)
+
+print('Scale:', Chordsv2[0], Chordsv2[1], Chordsv2[2], Chordsv2[3], Chordsv2[4], Chordsv2[5], Chordsv2[6])
