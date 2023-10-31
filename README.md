@@ -9,7 +9,7 @@ When called, the program will generate a random key, two chords, and the scale f
 
 As of now I made so that the program can only generator major or minor scales. 
 
-Future Goals
+Future Goals:
 - A future goal would be to generate different kinds of scales for different keys.
 - I also hope to make it more user friendly by allowing the user to surf through the
   other scales within the same key and even other common chord progressions. 
